@@ -95,6 +95,19 @@ div.bibinfo pre { clear:both; }
   width: 22px;
   height: 22px;
 }
+.github {
+  background-image: url(../img/github.png);
+  width: 22px;
+  height: 22px;
+}
+.altran {
+  background-image: url(../img/altran.png);
+  background-repeat: no-repeat;
+  padding-left: 20px;  /* width of the image plus a little extra padding */
+  width: 18px;
+  height: 16px;
+}
+
 .scholar {
   background-image: url(../img/scholar.png);
   width: 22px;
@@ -112,7 +125,7 @@ div.bibinfo pre { clear:both; }
 }
 
 .bg-udc {
-  background-color: #6d0a49 !important;
+  background-color: #223344 !important;
 }
 
 .display-5{font-size:2rem;font-weight:300;line-height:1.2}
@@ -134,7 +147,8 @@ div.bibinfo pre { clear:both; }
 }
 
 a {
-  color: #e10879;
+  /*color: #e10879;*/
+  color: #007bff;
 }
 
 /* Sticky footer styles
@@ -193,7 +207,8 @@ ul.clist > li:before {
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #e10879;
+    /* border: 3px solid #e10879; */
+	border: 3px solid #223344;
     left: 20px;
     width: 20px;
     height: 20px;
@@ -228,7 +243,8 @@ ul.timelinelist > li:before {
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #e10879;
+    /* border: 3px solid #e10879;*/
+	border: 3px solid #223344;
     left: 20px;
     width: 20px;
     height: 20px;
